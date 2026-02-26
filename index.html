@@ -1,111 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Traditional Catholic Encyclopaedia — Encyclopaedia of the Faith</title>
-<meta name="description" content="A comprehensive encyclopaedia of traditional Catholic doctrine: the seven sacraments, indulgences, types of sin, the Traditional Latin Mass, saints and devotions, and Catholic apologetics. Drawn from the Council of Trent, the Summa Theologica, and the perennial Magisterium.">
-<meta name="keywords" content="Traditional Catholic, Catholic encyclopaedia, Catholic doctrine, Council of Trent, Summa Theologica, indulgences, sacraments, Latin Mass, apologetics">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecclesia Dev — Catholic software, built to last.</title>
+  <meta name="description" content="Traditional Catholic developers building free tools for the faith. No monetization of Scripture or prayer. Ad maiorem Dei gloriam.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="wrapper">
 
-<header class="site-header">
-  <span class="chi-rho">☧</span>
-  <h1>Traditional Catholic Encyclopaedia</h1>
-  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')" aria-label="Menu">☰</button>
-</header>
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header>
+    <h1>Ecclesia Dev</h1>
+    <p class="tagline">Catholic software, built to last.</p>
+  </header>
 
-<div class="layout">
-<aside class="sidebar">
-<nav>
-  <span class="section-title">Home</span>
-  <a href="index.html" class="active">Welcome</a>
+  <hr>
 
-  <span class="section-title">The Sacraments</span>
-  <a href="sacraments.html">Overview &amp; All Seven</a>
+  <main>
 
-  <span class="section-title">Indulgences</span>
-  <a href="indulgences.html#what">What Are Indulgences?</a>
-  <a href="indulgences.html#partial-plenary">Partial &amp; Plenary</a>
-  <a href="indulgences.html#conditions">Conditions</a>
-  <a href="indulgences.html#prayers">Indulgenced Prayers</a>
-  <a href="indulgences.html#raccolta">The Raccolta</a>
-  <a href="indulgences.html#holy-souls">Holy Souls in Purgatory</a>
+    <!-- ═══════════════ ABOUT ═══════════════ -->
+    <section id="about">
+      <h2>About</h2>
+      <p>We are a group of traditional Catholic developers building free tools for the faith — Scripture readers, breviaries, rosaries, and more. We do not monetize prayer or the Word of God. Every project is offered freely to the Church.</p>
+      <p>Ad maiorem Dei gloriam.</p>
+    </section>
 
-  <span class="section-title">Types of Sin</span>
-  <a href="sin.html#mortal-venial">Mortal &amp; Venial Sin</a>
-  <a href="sin.html#conditions">Conditions for Mortal Sin</a>
-  <a href="sin.html#commandments">Sins by Commandment</a>
-  <a href="sin.html#deadly">Seven Deadly Sins</a>
-  <a href="sin.html#cry-to-heaven">Sins Crying to Heaven</a>
-  <a href="sin.html#reserved">Reserved Sins</a>
-  <a href="sin.html#occasions">Near Occasions of Sin</a>
+    <hr>
 
-  <span class="section-title">Teachings Clarified</span>
-  <a href="teachings.html#real-presence">The Real Presence</a>
-  <a href="teachings.html#mary">Mary's Role</a>
-  <a href="teachings.html#purgatory">Purgatory</a>
-  <a href="teachings.html#mass-sacrifice">The Mass as Sacrifice</a>
-  <a href="teachings.html#infallibility">Papal Infallibility</a>
-  <a href="teachings.html#extra-ecclesiam">Extra Ecclesiam</a>
+    <!-- ═══════════════ PROJECTS ═══════════════ -->
+    <section id="projects">
+      <h2>Projects</h2>
 
-  <span class="section-title">Latin Mass Guide</span>
-  <a href="tlm-guide.html#what-to-expect">What to Expect</a>
-  <a href="tlm-guide.html#parts">Parts of the Mass</a>
-  <a href="tlm-guide.html#responses">Server Responses</a>
-  <a href="tlm-guide.html#communion">Receiving Communion</a>
+      <ul class="projects">
 
-  <span class="section-title">Saints &amp; Devotions</span>
-  <a href="saints.html#rosary">The Holy Rosary</a>
-  <a href="saints.html#scapular">The Brown Scapular</a>
-  <a href="saints.html#sacramentals">Sacramentals</a>
-  <a href="saints.html#litanies">Litanies</a>
+        <li>
+          <span class="proj-name">DRB Bible</span>
+          <span class="proj-tag">[iOS]</span>
+          &#8212;
+          <span class="proj-desc">Douay-Rheims Bible with Haydock &amp; Lapide commentaries.</span>
+        </li>
 
-  <span class="section-title">Apologetics</span>
-  <a href="apologetics.html#sola-scriptura">Sola Scriptura</a>
-  <a href="apologetics.html#sola-fide">Sola Fide</a>
-  <a href="apologetics.html#mary">Mary</a>
-  <a href="apologetics.html#purgatory">Purgatory</a>
-  <a href="apologetics.html#papacy">The Papacy</a>
-</nav>
-</aside>
+        <li>
+          <span class="proj-name">Rosary</span>
+          <span class="proj-tag">[iOS]</span>
+          &#8212;
+          <span class="proj-desc">Traditional guided Rosary and novenas.</span>
+        </li>
 
-<main class="main-content">
-<h2>Welcome</h2>
-<p>This encyclopaedia is a reference for the faithful seeking to understand traditional Catholic doctrine — the sacraments, indulgences, sin, the Traditional Latin Mass, and commonly misunderstood teachings of the Church. All content draws from the perennial Magisterium, the Council of Trent, the Roman Catechism, papal encyclicals, and the <em>Summa Theologica</em> of St. Thomas Aquinas. All Scripture citations use the <strong>Douay-Rheims</strong> translation.</p>
+        <li>
+          <span class="proj-name">Gospel RPG</span>
+          <span class="proj-tag">[iOS]</span>
+          &#8212;
+          <span class="proj-desc">Scripture-based pixel art RPG for kids.</span>
+        </li>
 
-<blockquote>"The truth is like a lion; you don't have to defend it. Let it loose; it will defend itself." — St. Augustine</blockquote>
+        <li>
+          <span class="proj-name">Martyrology</span>
+          <span class="proj-tag">[CLI]</span>
+          &#8212;
+          <span class="proj-desc">Roman Martyrology for your terminal.</span>
+        </li>
 
-<h3>How to Use This Site</h3>
-<p>Use the navigation sidebar to explore the encyclopaedia:</p>
-<ul>
-  <li><strong><a href="sacraments.html">The Seven Sacraments</a></strong> — Baptism, Confirmation, Holy Eucharist, Penance, Extreme Unction, Holy Orders, and Matrimony: their matter, form, effects, and conditions.</li>
-  <li><strong><a href="indulgences.html">Indulgences</a></strong> — The Church's treasury of merit, conditions for gaining indulgences, and the most common indulgenced prayers with their texts.</li>
-  <li><strong><a href="sin.html">Types of Sin</a></strong> — A thorough examination of mortal and venial sin, organized by the Ten Commandments and the Seven Deadly Sins.</li>
-  <li><strong><a href="teachings.html">Church Teachings Clarified</a></strong> — Clear explanations of doctrines often misunderstood or misrepresented, from the Real Presence to Papal Infallibility.</li>
-  <li><strong><a href="tlm-guide.html">Traditional Latin Mass Guide</a></strong> — What to expect at the TLM, the parts of the Mass, server responses, Communion etiquette, and key texts.</li>
-  <li><strong><a href="saints.html">Saints &amp; Devotions</a></strong> — The Communion of Saints, the Holy Rosary, the Brown Scapular, sacramentals, patron saints, and litanies.</li>
-  <li><strong><a href="apologetics.html">Apologetics FAQ</a></strong> — Scripture and Church Father answers to common Protestant objections: Sola Scriptura, Sola Fide, Mary, Purgatory, the Papacy, and more.</li>
-</ul>
+        <li>
+          <span class="proj-name">Lectionary</span>
+          <span class="proj-tag">[CLI]</span>
+          &#8212;
+          <span class="proj-desc">Traditional lectionary readings.</span>
+        </li>
 
-<h3>A Note on Sources</h3>
-<p>Throughout these pages, you will find references to:</p>
-<ul>
-  <li>The <strong>Council of Trent</strong> (1545–1563) — the great reforming Council that clarified Catholic doctrine</li>
-  <li>The <strong>Roman Catechism</strong> (Catechism of the Council of Trent, 1566)</li>
-  <li>The <strong>Summa Theologica</strong> of St. Thomas Aquinas</li>
-  <li>The <strong>Church Fathers</strong> — St. Augustine, St. Jerome, St. John Chrysostom, St. Irenaeus, and others</li>
-  <li>Various <strong>papal encyclicals</strong> and documents of the Holy See</li>
-  <li>The <strong>1917 Code of Canon Law</strong></li>
-  <li>The <strong>Raccolta</strong> — the official collection of indulgenced prayers and works</li>
-  <li>The <strong>Douay-Rheims Bible</strong> — the traditional English translation of the Vulgate</li>
-</ul>
+        <li>
+          <span class="proj-name">Summa</span>
+          <span class="proj-tag">[CLI]</span>
+          &#8212;
+          <span class="proj-desc">St. Thomas Aquinas&#8217;s Summa Theologiae in the terminal.</span>
+        </li>
 
-<p class="source">This site is offered solely <em>ad maiorem Dei gloriam</em> — for the greater glory of God and the edification of souls.</p>
-</main>
+        <li>
+          <span class="proj-name">opus</span>
+          <span class="proj-tag">[CLI]</span>
+          &#8212;
+          <span class="proj-desc">Traditional Divine Office / Breviary.</span>
+          <span class="proj-soon">(coming soon)</span>
+        </li>
+
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- ═══════════════ NOSTR ═══════════════ -->
+    <section id="nostr">
+      <h2>Nostr</h2>
+      <p class="nostr-note">
+        Find us on <strong>Nostr</strong> &#8212; the censorship-resistant protocol. We run two bots:
+        <code>Daily Aquinas</code>, posting a question and reply from the Summa each day,
+        and <code>Divinum Officium</code>, sharing the hours of the Divine Office.
+        Search for <code>ecclesiadev</code> on any Nostr client.
+      </p>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer>
+    <p>&#169; Ecclesia Dev &#8212; All tools free for the glory of God.</p>
+    <p>Last updated: 2026-02-25</p>
+  </footer>
+
 </div>
-
-<footer class="site-footer">Ad maiorem Dei gloriam.</footer>
 </body>
 </html>
